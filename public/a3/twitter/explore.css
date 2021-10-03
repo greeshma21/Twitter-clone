@@ -1,0 +1,80 @@
+.wd-black-bg{
+    background-color: black;
+}
+/*.wd-margin{
+    margin: 16px;
+}*/
+
+/*.wd-in-margin{
+    border: 1px solid grey;
+    padding-left: 20px;
+}*/
+.wd-search{
+    background-color: darkgrey;
+    color: white;
+    border-radius: 50px;
+    height:25px;
+    width: 500px;
+}
+::placeholder{
+    color: white;
+}
+.fa-search{
+    color: darkgrey;
+}
+.fa-cog{
+    padding-left: 12px;
+    color: blue;
+}
+ a{
+    color: rgb(110,118,125);
+    text-decoration: none;
+     padding: 16px;
+     font-size: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a.active {
+    color: rgb(29,161,242);
+    text-decoration: underline;
+}
+ul li{
+    float: left;
+    text-decoration: none;
+    padding-right: 30px;
+}
+hr{
+    color: grey;
+}
+.wd-Cdiv{
+    color:white;
+}
+.wd-CTopic{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-CTweetNo{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-Cdiv hr{
+    border-width: 2px;
+}
+.wd-Cdiv{
+    border: 1px solid lightgray;
+    outline: lightgray solid 1px;
+    margin: auto;
+    padding: 20px;
+}
+.wd-float-right {
+    float: right;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+

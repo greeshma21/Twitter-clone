@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+.wd-divA{
+    background-color: black;
+    border: 2px solid grey;
+    margin: 2px 2px 2px 2px;
+}
+.wd-divA-margin{
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.wd-divA-p{
+    color: white;
+    font-size: 20px;
+    line-height: 2px;
+}
+.wd-divA-\small{
+    color: lightgray;
+    font-size: 13px;
+    position: relative;
+    bottom: 16px;
+}
+hr{
+    color: lightgray;
+    position: relative;
+    bottom: 12px;
+}
+.wd-divB-img{
+    float: left;
+    border-radius: 48px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 16px;
+}
+.wd-divC-author{
+    display: inline;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.wd-divC-handle{
+    display: inline;
+    color: lightgray;
+    font-size: 15px;
+}
+.wd-divD-text{
+    color: white;
+    margin-left: 50px;
+    width: 506px;
+    font-size: 15px;
+}
+.wd-img {
+    /*float: right;*/
+    width: 504px;
+    height: 264px;
+}
