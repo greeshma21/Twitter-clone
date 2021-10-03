@@ -1,80 +1,112 @@
-.wd-black-bg{
+body {
     background-color: black;
 }
-/*.wd-margin{
-    margin: 16px;
-}*/
-
-/*.wd-in-margin{
-    border: 1px solid grey;
-    padding-left: 20px;
-}*/
-.wd-search{
+.wd-thinborder {
+    border-width: 1px 1px 1px 1px ;
+}
+.wd-solid {
+    border-style: solid;
+}
+.wd-greyborder{
+    border-color:  grey;
+}
+.wd-margin{
+    margin-left: 16px;
+}
+.wd-divA-greyedge{
     background-color: darkgrey;
-    color: white;
-    border-radius: 50px;
-    height:25px;
-    width: 500px;
+
 }
-::placeholder{
-    color: white;
+.wd-divA-roundborder{
+    border-radius: 30px;
+    padding: 10px;
 }
-.fa-search{
-    color: darkgrey;
+
+::placeholder {
+    padding-left: 15px;
+    color: grey;
 }
-.fa-cog{
+
+.wd-searchGlass{
+    background-color: transparent;
+    border: none;
+    width:80%;
+
+
+}
+.wd-exp-settings{
     padding-left: 12px;
     color: blue;
+
 }
- a{
-    color: rgb(110,118,125);
-    text-decoration: none;
-     padding: 16px;
-     font-size: 15px;
+.fa-search {
+    color: rgb(90,97,103);
+
 }
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+li{
+    float:left;
+}
+
+
+.wd-divB a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size:15px;
+}
+
 a.active {
     color: rgb(29,161,242);
-    text-decoration: underline;
+    border-bottom: 4px solid rgb(29,161,242);
 }
-ul li{
-    float: left;
-    text-decoration: none;
-    padding-right: 30px;
+
+.wd-divC .Ctopic {
+    color: lightgray;
+    font-size: small;
+
 }
-hr{
-    color: grey;
+.wd-divC .Ctitle {
+    color: white;
+
 }
-.wd-Cdiv{
-    color:white;
-}
-.wd-CTopic{
-    font-size: 13px;
+.wd-divC .Ctweets {
     color: rgb(110, 118, 125);
+    font-size: small;
+
 }
-.wd-CTweetNo{
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-.wd-Cdiv hr{
-    border-width: 2px;
-}
-.wd-Cdiv{
-    border: 1px solid lightgray;
-    outline: lightgray solid 1px;
-    margin: auto;
-    padding: 20px;
-}
-.wd-float-right {
+.fa-ellipsis-h {
+    color: gray;
     float: right;
-    position: relative;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
+    padding-right: 16px;
 }
+
+img{
+    height: 1em;
+    width: 1em;
+    position: relative;
+}
+
+.wd-margin > img{
+    height: 100px ;
+    width: 100px;
+    float: right;
+    border-radius: 15px;
+}
+.wd-divD .Ctitle {
+    color: white;
+}
+
+.wd-divD .Ctopic {
+    color: white;
+    font-size: small;
+}
+
 
