@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+.list-group {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+    border-width:1px;
+    border-color: black;
+}
+
+.container {
+    margin-top: 2px;
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: black;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.fa-search {
+    /*background-color: transparent;*/
+    border: none;
+}
+
+.input-group-text{
+    background-color: transparent;
+    border: none;
+}
+
+.form-control {
+    border: none;
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+}
+.wd-search{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+}
+
+.navbar{
+    color: white;
+}
+
+::placeholder {
+    color: grey;
+}
+
+.fa-search {
+    background-color: transparent;
+    border: none;
+    color: grey;
+}
+
+.wd-mid-list {
+    border-width: 1px;
+    border-color: grey;
+}
+
+
+
+
+
+
