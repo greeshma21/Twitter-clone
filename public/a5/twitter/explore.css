@@ -1,0 +1,28 @@
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.fa-search {
+    background-color: transparent;
+    border: none;
+}
+
+
+.input-group-text{
+    background-color: transparent;
+    border: none;
+}
+
+.form-control {
+    border: none;
+}
+.wd-search{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+

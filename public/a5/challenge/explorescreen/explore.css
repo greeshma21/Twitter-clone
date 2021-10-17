@@ -1,0 +1,38 @@
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.fa-search {
+    background-color: transparent;
+    border: none;
+}
+
+.input-group-text{
+    background-color: grey;
+    border: none;
+}
+
+.form-control {
+    border: none;
+}
+.wd-search{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.wd-profilepic {
+    float: left;
+    border-radius: 48px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.wd-card-img-top {
+    width: 100%;
+}
