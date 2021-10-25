@@ -42,7 +42,7 @@ const PostItem = ({
                              
                              <div className ="col-11 border border-secondary">
                              
-  <img className="wd-card-img-top" src={post1.cardpic} alt="Card image cap"/>
+  <img className="wd-card-img-top" src={post1.cardpic} alt="Card"/>
   <div className="wd-card-body">
     <h6 className="wd-card-title fw-bold">{post1.cardtitle}</h6>
     </div>
