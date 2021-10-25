@@ -23,7 +23,7 @@ const PostItem = ({
                     <div className = "row">
                     <div className = "col-2">
                     
-                    <div><img className="wd-profilepic" src={post1.profilepic}/></div>
+                    <div><img className="wd-profilepic" src={post1.profilepic} alt="profile"/></div>
                     </div>
                         <div className = "col-10">
                             <div className="wd-txt-book">
@@ -31,7 +31,7 @@ const PostItem = ({
                             </div>
                             
                             <div className="wd-txt-book">
-                                {post1.textbflink} <a href="#">{post1.link}</a> {post1.textafterlink}
+                                {post1.textbflink} <a href="/public/a2/twitter/like.html">{post1.link}</a> {post1.textafterlink}
                             </div>
                             </div>
                             </div>

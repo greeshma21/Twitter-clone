@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import HelloWorld from "./components/a6/HelloWorld";
 import Build from "./components/a6/Build/Build";

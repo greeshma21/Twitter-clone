@@ -18,16 +18,17 @@ const Build = () => {
 export default Build;*/
 
 import React from "react";
-import NavigationSidebar from "./NavigationSidebar";
+import ExploreScreen from "./ExploreScreen/ExploreScreen";
+/*import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
 import WhoToFollowList from "./WhoToFollowList";
-import ExploreScreen from "./ExploreScreen/ExploreScreen";
+
 import PostSummaryItem from "./PostSummaryList/PostSummaryItem";
 import PostSummaryList from "./PostSummaryList";
 import {Link} from "react-router-dom";
 import PostItem from "./HomeScreen/PostItem";
 import HomeIndex from "./HomeScreen";
-import HomeScreen from "./HomeScreen/HomeScreen";
+import HomeScreen from "./HomeScreen/HomeScreen";*/
 
 const Build = () => {
     return(
