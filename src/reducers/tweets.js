@@ -5,6 +5,7 @@ const tweets = (state = tweetsJson, action) => {
         case 'fetch-all-tweets':
             return(action.tweets
             );
+            // eslint-disable-next-line no-unreachable
             break;
 
         case 'create-tweet':
@@ -31,11 +32,13 @@ const tweets = (state = tweetsJson, action) => {
                     ...state,
                 ]
             );
+            // eslint-disable-next-line no-unreachable
             break;
 
         case 'delete-tweet':
             return state
                 .filter(tweet => tweet._id !== action.tweet._id);
+            // eslint-disable-next-line no-unreachable
             break;
 
         case 'like-tweet':
@@ -53,6 +56,7 @@ const tweets = (state = tweetsJson, action) => {
                     return tweet;
                 }
             });
+            // eslint-disable-next-line no-unreachable
             break;
 
         default:

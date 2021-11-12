@@ -1,13 +1,13 @@
 import './App.css';
-import HelloWorld from "./components/a6/HelloWorld";
+/*import HelloWorld from "./components/a6/HelloWorld";
 import Build from "./components/a6/Build/Build";
-import Index from "./components/a6/Practice/index";
+import Index from "./components/a6/Practice/index";*/
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
-import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
-import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
+/*import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";*/
 import A6 from "./components/a6";
 import A7 from "./components/a7";
 import who from "./reducers/who";

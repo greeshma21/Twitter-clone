@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
-import Practice from "./Practice";
+/*import Practice from "./Practice";*/
 import Build from "./Build/Build";
 import HelloWorld from "./HelloWorld";
 import Index from "./Practice";
