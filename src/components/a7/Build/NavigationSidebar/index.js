@@ -81,7 +81,9 @@ const NavigationSidebar = (
                        </div>
                    </div>
                </a>
-               <a className="list-group-item " href="profile.html">
+                <Link to="/a7/twitter/profile"
+                      className={`list-group-item ${active === 'profile' ? 'active' : ''}`} href="/public/a5/build/explorescreen/explore.html">
+              {/* <a className="list-group-item " href="profile.html">*/}
                    <div className="row">
                        <div className="col-2">
                            <i className="fas fa-user-circle me-2"></i>
@@ -90,7 +92,8 @@ const NavigationSidebar = (
                            <span className="d-none d-xl-block ">Profile</span>
                        </div>
                    </div>
-               </a>
+               {/*</a>*/}
+                </Link>
                <a className="list-group-item " href="more.html">
                    <div className="row">
                        <div className="col-2">

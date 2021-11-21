@@ -38,9 +38,10 @@ const Index = () => {
             {/*<Link to="/a6/hello">
                 Hello
             </Link> |*/}
-            <Link to="/a7/twitter/home">Build</Link> |
-            <Link to="/a7/practice">Practice</Link> |
+            <Link to="/a7/twitter/home">Build A7</Link> |
+            <Link to="/a7/practice">Practice A7</Link> |
             <Link to="/a8/practice">Practice A8</Link>
+            <Link to="/a8/twitter/home">Build A8</Link>
             <h1>Practice</h1>
             <APIExamples/>
             <ReduxExamples/>

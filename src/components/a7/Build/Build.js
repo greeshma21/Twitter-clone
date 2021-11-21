@@ -25,8 +25,10 @@ import who from "../../../reducers/who";
 import tweets from "../../../reducers/tweets";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
+import ProfileScreen from "./ProfileScreen";
+import profile from "../../../reducers/profile";
 
-const reducer = combineReducers({tweets: tweets, who})
+const reducer = combineReducers({tweets: tweets, who, profile})
 
 const store = createStore(reducer);
 
@@ -39,6 +41,8 @@ const Build = () => {
                    exact={true} component={HomeScreen}/>
             <Route path="/a7/twitter/explore"
                    exact={true} component={ExploreScreen}/>
+            <Route path="/a7/twitter/profile"
+                   exact={true} component={ProfileScreen}/>
         </div>
         </Provider>
     );
