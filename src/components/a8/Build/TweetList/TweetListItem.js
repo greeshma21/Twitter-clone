@@ -8,7 +8,6 @@ import {deleteTweet} from "../../../../services/twitterService";
 const TweetListItem = ({tweet}) => {
     const dispatch = useDispatch();
     const deleteTweetClickHandler = () => {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         deleteTweet(dispatch, tweet);
     }
     return(

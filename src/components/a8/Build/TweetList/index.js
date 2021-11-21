@@ -25,7 +25,7 @@ const selectAllTweets = (state) => state.tweets;
 const TweetList = () => {
     const tweets = useSelector(selectAllTweets);
     const dispatch = useDispatch();
-    useEffect(() => fetchAllTweets(dispatch), [])
+    useEffect(() => fetchAllTweets(dispatch), []) // eslint-disable-line react-hooks/exhaustive-deps
     return(
         <>
             <ul className="list-group">
