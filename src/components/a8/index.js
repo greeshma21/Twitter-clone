@@ -24,7 +24,6 @@ const A8 = () => {
                 <Route path="/a8/twitter">
                     <Build/>
                 </Route>
-
             </div>
         </BrowserRouter>
     )
