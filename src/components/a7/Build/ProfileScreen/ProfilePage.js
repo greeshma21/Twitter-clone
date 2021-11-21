@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 import {useSelector} from "react-redux";
-import {Link, useHistory} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 const profileData = (state) => state.profile;
 
@@ -25,7 +25,7 @@ const ProfilePage = () => {
 
           <img src={profile["backgroundImage"]}
                className="profile-banner row"
-               width={650}
+               width={650} alt="Background"
           />
 
           <div className="col-sm-3 avatar-container">

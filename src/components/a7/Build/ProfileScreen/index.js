@@ -2,9 +2,6 @@ import React from "react";
 import NavigationSidebar from "../NavigationSidebar/index";
 import PostSummaryList from "../PostSummaryList";
 import ProfilePage from "./ProfilePage";
-import {Link} from "react-router-dom";
-import WhatsHappening from "../WhatsHappening";
-import TweetList from "../TweetList";
 
 const ProfileScreen = () => {
     /*return (
