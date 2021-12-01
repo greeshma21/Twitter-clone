@@ -31,6 +31,7 @@ export const updateMovie = (movie) =>
         }
     }).then(response => response.json());
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     findAllMovies, deleteMovie, createMovie, findMovieById, updateMovie
 };
