@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 import {useSelector} from "react-redux";
-import {Link, useHistory} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 const profileData = (state) => state.profile;
 
@@ -34,10 +34,7 @@ const ProfilePage = () => {
 
 
           <div className="pt-3 pe-4">
-             {/* <button className="row btn rounded-pill border pull-right fw-bold wd-font-color-white" onClick={()=>history.push("/a7/twitter/editprofile")}>Edit Profile</button>*/}
-              <Link to="/a8/twitter/profile/editProfile">
-                  <a className="btn border btn-block rounded-pill">Edit Profile</a>
-              </Link>
+              <button className="row btn rounded-pill border pull-right fw-bold wd-font-color-white" onClick={()=>history.push("/a7/twitter/editprofile")}>Edit Profile</button>
           </div>
 
           <div className="pt-5"></div>

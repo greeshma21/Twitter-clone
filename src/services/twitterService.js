@@ -9,6 +9,7 @@ export const fetchAllTweets = (dispatch) =>
                 tweets
             })
         );
+
 export const postNewTweet = (dispatch, newTweet) =>
     fetch(TWEET_API, {
         method: 'POST',
@@ -32,6 +33,7 @@ export const deleteTweet = (dispatch, tweet) =>
         type: 'delete-tweet',
         tweet
     }));
+
 export const likeTweet = (dispatch, tweet) =>
     fetch(`${TWEET_API}/${tweet._id}/like`, {
         method: 'PUT'

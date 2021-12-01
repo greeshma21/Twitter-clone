@@ -21,13 +21,12 @@ import React from "react";
 import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import {Route} from "react-router-dom";
 import HomeScreen from "./HomeScreen/index";
-import who from "../../../reducers/who";
-import tweets from "../../../reducers/tweets";
+import who from "../reducers/who";
+import tweets from "../reducers/tweets";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
+import profile from "../reducers/profile";
 import ProfileScreen from "./ProfileScreen";
-import profile from "../../../reducers/profile";
-import EditPage from "./EditProfile/EditPage";
 
 const reducer = combineReducers({tweets: tweets, who, profile})
 
@@ -38,14 +37,12 @@ const Build = () => {
     return(
         <Provider store={store}>
         <div>
-            <Route path={["/", "/a7/twitter/home"]}
+            <Route path={["/", "/a9/twitter/home"]}
                    exact={true} component={HomeScreen}/>
-            <Route path="/a7/twitter/explore"
+            <Route path="/a9/twitter/explore"
                    exact={true} component={ExploreScreen}/>
-            <Route path="/a7/twitter/profile"
+            <Route path="/a9/twitter/profile"
                    exact={true} component={ProfileScreen}/>
-            <Route path="/a7/twitter/profile/editProfile"
-                   exact={true} component={EditPage}/>
         </div>
         </Provider>
     );
