@@ -1,15 +1,11 @@
-/* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import './index.css';
 import {useSelector} from "react-redux";
-import {Link, useHistory} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 const profileData = (state) => state.profile;
 
 const ProfilePage = () => {
-    // eslint-disable-next-line no-unused-vars
     let history = useHistory();
     const profile = useSelector(profileData)[0];
 
@@ -38,10 +34,7 @@ const ProfilePage = () => {
 
 
           <div className="pt-3 pe-4">
-              {/*<button className="row btn rounded-pill border pull-right fw-bold wd-font-color-white" onClick={()=>history.push("/a7/twitter/editprofile")}>Edit Profile</button>*/}
-              <Link to="/a7/twitter/profile/editProfile">
-                  <a className="btn border btn-block rounded-pill">Edit Profile</a>
-              </Link>
+              <button className="row btn rounded-pill border pull-right fw-bold wd-font-color-white" onClick={()=>history.push("/a7/twitter/editprofile")}>Edit Profile</button>
           </div>
 
           <div className="pt-5"></div>
