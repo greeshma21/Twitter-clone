@@ -15,7 +15,7 @@ import tweets from "./reducers/tweets";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import A8 from "./components/a8";
-import A9 from "./a9/index";
+// import A9 from "./a9/index";
 
 const reducer = combineReducers({tweets: tweets, who})
 const store = createStore(reducer);
@@ -38,9 +38,9 @@ function App() {
                     <A8/>
                 </Route>
                 <Link to="/a9/practice">Assignment9</Link>
-                <Route path="/a9">
+                {/*<Route path="/a9">
                     <A9/>
-                </Route>
+                </Route>*/}
 
                 {/*<Route path="/a6/hello"exact={true}>
                     <HelloWorld/>
